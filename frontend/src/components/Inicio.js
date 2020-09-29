@@ -15,7 +15,7 @@ const Inicio = () => {
             <p>
               <Link
                 className="btn btn-primary btn-lg"
-                to="/Registro"
+                to="/Sesion"
                 role="button"
               >
                 Iniciar sesión.
@@ -37,14 +37,8 @@ const Inicio = () => {
           <div className="row">
             <div className="col-md-4"></div>
             <div className="col-md-4">
-              <h2></h2>
-              <p></p>
-              <p></p>
             </div>
             <div className="col-md-4">
-              <h2></h2>
-
-              <p></p>
             </div>
           </div>
           <hr />
