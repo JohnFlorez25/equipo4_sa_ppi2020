@@ -4,7 +4,7 @@ import { link, withRouter } from "react-router-dom";
 
 
 
-const Registro = (props) => {
+const Perros = (props) => {
   const { history } = props;
   return (
     <div>
@@ -12,8 +12,7 @@ const Registro = (props) => {
         <img className="Logo" src="img/logo_actual.jpeg.jpg" alt="Logo" />
         <form action="/action_page.php" className="was-validated">
           <div className="form-group">
-           <h1>¡¡Bienvenidos!!</h1>
-           <h3>Registrate: </h3>
+           <h3>Registrar mascota: </h3>
             <label for="uname">Nombre:</label>
             <input
               type="text"
@@ -29,11 +28,11 @@ const Registro = (props) => {
             </div>
           </div>
           <div className="form-group">
-            <label for="pwd">Correo:</label>
+            <label for="pwd">Edad:</label>
             <input
               className="form-control"
               id="pwd"
-              placeholder="Ingresa correo"
+              placeholder="Ingresar edad"
               name="pswd"
               required
             />
@@ -43,12 +42,12 @@ const Registro = (props) => {
             </div>
           </div>
           <div className="form-group">
-            <label for="pwd">Contraseña:</label>
+            <label for="pwd">Raza:</label>
             <input
               type="password"
               className="form-control"
               id="pwd"
-              placeholder="Ingresa contraseña"
+              placeholder="Ingresa raza"
               name="pswd"
               required
             />
@@ -57,30 +56,18 @@ const Registro = (props) => {
               Por favor rellene este campo.
             </div>
           </div>
-          <div className="form-group form-check">
-            <label className="form-check-label">
-              <input
-                className="form-check-input"
-                type="checkbox"
-                name="remember"
-                required
-              />{" "}
-              Recuérdame.
-              <div className="valid-feedback">Guardado.</div>
-              <div className="invalid-feedback"></div>
-            </label>
-          </div>
+          
           <button
             type="submit"
             className="btn btn-primary"
-            onClick={() => history.push("/Perros")}
+            onClick={() => history.push("/")}
           >
             Registrarse
           </button>
           <button
             type="submit"
             className="btn btn-danger"
-            onClick={() => history.goBack("/")}
+            onClick={() => history.goBack("/Registro")}
           >
             Devolverse
           </button>
@@ -90,4 +77,4 @@ const Registro = (props) => {
   );
 };
 
-export default withRouter(Registro);
+export default withRouter(Perros);

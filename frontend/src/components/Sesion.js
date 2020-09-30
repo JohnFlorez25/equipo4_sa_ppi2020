@@ -1,9 +1,6 @@
 import React from "react";
 import { link, withRouter } from "react-router-dom";
 
-
-
-
 const Registro = (props) => {
   const { history } = props;
   return (
