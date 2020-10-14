@@ -25,9 +25,18 @@ const Perfiles = () => {
                 <a title="index" href="index.html"><img src="img/perro4.jpg" alt="index"/></a>
                 <h2>Pachanga</h2>
             </div>
+            <p>
+              <Link
+                className="btn btn-primary btn-lg"
+                to="/Sesion"
+                role="button"
+              >
+                Cerrar sesión.
+              </Link>
+            </p>
             <div className="info-hobby5">
 
-            <button className="info-hobby3">+</button>
+            <button className="info-hobby5">+</button>
             
             </div>
 

@@ -60,7 +60,7 @@ const Perros = (props) => {
           <button
             type="submit"
             className="btn btn-primary"
-            onClick={() => history.push("/")}
+            onClick={() => history.push("Perfiles")}
           >
             Registrarse
           </button>

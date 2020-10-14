@@ -54,7 +54,7 @@ const Registro = (props) => {
           <button
             type="submit"
             className="btn btn-primary"
-            onClick={() => history.push("/Card")}
+            onClick={() => history.push("Perfiles")}
           >
             Iniciar sesión
           </button>
