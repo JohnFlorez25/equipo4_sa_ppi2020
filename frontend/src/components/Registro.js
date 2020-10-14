@@ -9,7 +9,7 @@ const Registro = (props) => {
   return (
     <div>
       <div className="container">
-        <img className="Logo" src="img/logo_actual.jpeg.jpg" alt="Logo" />
+        <img className="Logo" src="img/" alt="Logo" />
         <form action="/action_page.php" className="was-validated">
           <div className="form-group">
            <h1>¡¡Bienvenidos!!</h1>
