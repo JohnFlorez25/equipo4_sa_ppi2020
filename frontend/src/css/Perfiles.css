@@ -84,6 +84,10 @@ h4 {
 .info-hobby {
   margin: 25px;
 }
+.cont-buttons {
+  display: flex;
+  z-index: 1;
+}
 
 .hr {
   height: 3px;

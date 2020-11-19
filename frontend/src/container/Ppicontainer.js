@@ -7,6 +7,7 @@ import Inicio from "../components/Inicio";
 import Perros from "../components/Perros";
 import Perfiles from "../components/Perfiles";
 import Perfilperro from "../components/Perfilperro";
+import Comenzar from "../components/Comenzar";
 
 export default function Ppiconainer() {
   return (
@@ -17,6 +18,8 @@ export default function Ppiconainer() {
       <Route path="/Perros" exact component={Perros} />
       <Route path="/Perfiles" exact component={Perfiles} />
       <Route path="/Perfilperro" exact component={Perfilperro} />
+      <Route path="/Comenzar" exact component={Comenzar} /> 
+
     </BrowserRouter>
   );
 }

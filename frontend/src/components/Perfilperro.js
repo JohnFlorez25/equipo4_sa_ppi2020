@@ -26,9 +26,7 @@ const Perfilperro = (props) => {
           <center>
             <h5 className="card-title">Básico</h5>
           </center>
-          <p className="card-text">
- 
-          </p>
+          <p className="card-text"></p>
         </div>
       </div>
 
@@ -37,25 +35,25 @@ const Perfilperro = (props) => {
           <center>
             <h5 className="card-title">Avanzado</h5>
           </center>
-          <p className="card-text">
-
-          </p>
+          <p className="card-text"></p>
         </div>
       </div>
-      <button
-        type="submit"
-        className="btn4 btn-primary"
-        onClick={() => history.push("Perfiles")}
-      >
-        Registrarse
-      </button>
-      <button
-        type="submit"
-        className="btn4 btn-danger"
-        onClick={() => history.goBack("/Registro")}
-      >
-        Devolverse
-      </button>
+      <div class="cont-buttons">
+        <button
+          type="submit"
+          className="btn4 btn-primary"
+          onClick={() => history.push("Perfiles")}
+        >
+          Registrarse
+        </button>
+        <button
+          type="submit"
+          className="btn4 btn-danger"
+          onClick={() => history.goBack("/Registro")}
+        >
+          Devolverse
+        </button>
+      </div>
     </div>
   );
 };

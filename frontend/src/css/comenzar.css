@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  display: block;
+
+}
+
+.title {
+  width: 70%;
+  display: block;
+  background: rgb(133, 7, 165);
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 50px;
+  margin:50px auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+
+}
+
+.buttons {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px;
+  background: rgb(21, 181, 245);
+  color: rgb(241, 241, 241);
+  border-radius: 0;
+}
