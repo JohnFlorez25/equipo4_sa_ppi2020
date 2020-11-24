@@ -10,8 +10,9 @@ const Comenzar = (props) => {
         <h1>¿Comenzamos?</h1>
       </div>
       <div class="buttons">
-        <button class="btn">Entrenamiento basico</button>
-        <button class="btn">Entrenamiento avanzado</button>
+        <button className="btn"  onClick={() => history.push("entrenamientobasico")}>Entrenamiento basico</button>
+      
+        <button className="btnn">Entrenamiento avanzado</button>
       </div>
     </div>
   );
